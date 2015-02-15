@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 			public void onItemClick(AdapterView<?> arg0, View arg1, int position,
 					long id) {
 				// TODO Auto-generated method stub
-				Toast.makeText(getApplicationContext(), actorsList.get(position).getName(), Toast.LENGTH_LONG).show();				
+				Toast.makeText(getApplicationContext(), actorsList.get(position).getName(), Toast.LENGTH_SHORT).show();
 			}
 		});
 	}
